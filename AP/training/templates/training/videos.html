@@ -1,0 +1,42 @@
+{% extends 'training/home.html' %}
+
+{% load static %}
+{% block content %}
+
+    <div class="videopage">
+      <h3>Definition of Professional Behavior </h3>
+      <p>
+         Professional behavior is a key to career success, but it’s not always taught. Most people learn how to be professional, meaning they develop their own image and perception of competence, by watching others, but without good role models it’s easy to make mistakes that could be detrimental to your career and overall professional image. When you understand the fundamentals of professional behavior and act accordingly, you’re less likely to make those costly errors, and your career will continue on an upward trajectory
+      </p>
+      <h3>Critical Thinking and Problem-Solving</h3>
+
+        <p>Critical thinking is an intentional effort to think through processes logically. A professional is more likely to think through a challenging scenario to choose the best action as opposed to acting impulsively or irrationally. Problem-solving professional behaviors are closely tied to critical thinking as well. Thoughtful problem-solving involves an intentional step-by-step approach of listening, investigating, defining and then working to resolve a problem. Consultative salespeople are problem-solving professionals. They ask questions of prospects, address concerns, consider alternative remedies and recommend solutions. Managers or leaders also work through problem-solving steps to find optimum solutions.</p>
+
+      <h3>Ethical and Responsible Actions</h3>
+
+        <p>Professionals exhibit moral decision-making and responsible actions in many ways. A professional respectfully follows his manager's directions to complete tasks and projects. When faced with a choice between doing right by a customer or making immediate profit for the company, an ethical professional does what is right first. An honest and trustworthy worker uses company resources and materials efficiently just as he would his own. In contrast, less professional and ethical workers may overuse or abuse access to resources and even use them for personal purposes. Responsible employee behaviors include turning in completed work by deadlines and following through on commitments to co-workers and clients.</p>
+
+      <h3>Initiative and Accountability</h3>
+
+        <p>Employees show initiative by seeking new work and responsibilities and by looking for resources without always needing assistance. In a retail setting, a professional sales associate organizes product displays and completes routine cleaning activities when there are no immediate opportunities to help customers. Professionals also show initiative by seeking internal and external training opportunities, such as attending workshops and conferences, or mentoring a new employee. Accountability means accepting ownership of mistakes or problems, and working for a remedy. Service reps often have to take personal accountability for company failures to satisfy a customer's desires.</p>
+
+      <h3>Professional Demeanor</h3>
+
+        <p>Because many nonverbal gestures and mannerisms fit into the category of behaviors that make up appropriate demeanor, the definition of professional in terms of demeanor varies according to the specific field, company and setting. For example, dressing and grooming in line with the job and company policy are indicators of professionalism. Professionals dress to project the right image to customers, not to test the minimum boundaries of company policy. Professionals maintain poise under pressure and show respect for others rather than lashing out physically or emotionally. Shaking hands firmly, listening actively and with eye contact, smiling and standing with tall posture are other elements of professional demeanor.
+        Kindness is another important part of professionalism. Be polite and kind to colleagues and co-workers at every level. Be genuinely happy for others when they succeed, and celebrate their accomplishments and successes. Doing so builds stronger working relationships and improves your reputation.</p>
+        <br>
+     </div>
+     <br>
+
+     <div class="display1">
+       <video width='520' height= '280' controls>
+         <source src="{% static 'videos/Basics of TensorFlow - TF Workshop - Session 1.mp4' type='video/mp4' %}">
+         Your browser does not support the video tag.
+       </video>
+     </div><br>
+
+     <form method="post">
+      {% csrf_token %}
+        <button type="submit" class="btn btn-info btn-3"> <a href="{% url 'questions' %}"> Next >> </a></button>
+     </form><br><br>
+{% endblock content %}

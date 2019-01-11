@@ -1,0 +1,29 @@
+.event1{
+  border: 1px solid lightgray;
+  padding: 7px 2px 2px 2px;
+  text-align: center;
+  box-sizing:content-box;
+  border-radius: 3px;
+  float: left;
+  margin-left: 10px;
+
+}
+.col-sm-3{
+  margin-top: 80px;
+  border: 1px solid lightgray;
+  padding: 7px 2px 2px 2px;
+  text-align: center;
+  box-sizing:content-box;
+  border-radius: 3px;
+  margin-right: 15px;
+  float: right;
+}
+.row{
+  display: inline-block;
+}
+h3.events{
+  text-align: left;
+  margin-right: 990px;
+  font-family: 'Bitter', cursive;
+  font-size: 30px;
+}

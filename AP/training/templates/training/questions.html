@@ -1,0 +1,11 @@
+{% extends 'training/home.html' %}
+{% load staticfiles %}
+
+    {% block content %}
+    <div class="display">
+      <video width='520' height= '280' controls>
+        <source src="{% static 'videos/Basics of TensorFlow - TF Workshop - Session 1.mp4' type='video/mp4' %}">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    {% endblock content %}

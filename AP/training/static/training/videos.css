@@ -1,0 +1,31 @@
+h3.videopage, p{
+  font-family: 'Bitter', cursive;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  font-size: 15px;
+  text-indent: 25px;
+}
+.videopage h3{
+  color: lightseagreen !important;
+  font-size: 25px !important;
+  margin-right: 350px !important;
+  justify-content: flex-start;
+  text-align: left;
+}
+.btn-3{
+    align-content: center;
+    display: flex;
+    margin-left: 450px !important;
+    width:200px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: lightseagreen !important;
+    font-size: 20px;
+    color: white;
+}
+.display1{
+  align-items: center !important;
+  margin-left: 40px !important;
+}
